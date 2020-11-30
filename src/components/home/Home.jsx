@@ -18,7 +18,9 @@ const Home = (props) => {
                         Hello! My name is Brady Baker and welcome to my personal website! I designed this page for people to find out a little bit
                         more about myself and the work I have done as a software engineer. In short, I am a full stack software engineer that loves meeting new people and
                         staying active in whatever way calls to me that day. That could be going for a bike ride, heading to the gym, or just a walk
-                        around the lake with my dog.
+                        around the lake with my dog. Feel free to connect with me on Linkedin, which is linked below, or reaching out to me at my email above.
+                        You can also check out my work through my linked GitHub page. I have also highlighted some of my projects below. This sight is still
+                        a work in progress!
                     </div>
                     <div className="links">
                         <img className='proLink' width={200} src='https://cdn.worldvectorlogo.com/logos/linkedin-logo-2013.svg' onClick={() => window.open('https://www.linkedin.com/in/brady-baker-6587651bb/', '_blank')} />

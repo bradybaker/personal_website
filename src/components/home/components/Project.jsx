@@ -11,6 +11,7 @@ const Project = (props) => {
                 <div className='projectInfo'>
                     <p className='projectTitle'>The SQL To-Do List</p>
                     <p>Tech Used: JavaScript - jQuery - PostgreSQL</p>
+                    <p>--Brief project description goes here--</p>
                 </div>
             </div>
         </div>

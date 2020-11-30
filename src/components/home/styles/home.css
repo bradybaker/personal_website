@@ -23,7 +23,7 @@
 
 .topProfile {
     background-color: #74B2BC;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +40,7 @@
 
 .aboutMe {
     width: 80%;
+    padding: 10px
 }
 
 .bradyPic {
