@@ -1,5 +1,5 @@
 .appContentContainer {
-    font-family: Helvetica, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Float */
@@ -23,7 +23,7 @@
 
 .topProfile {
     background-color: #74B2BC;
-    height: 65vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,11 +38,16 @@
     font-weight: bold;
 }
 
+.aboutMe {
+    width: 80%;
+}
+
 .bradyPic {
     border-radius: 50%;
     -webkit-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
+    margin-bottom: 18px;
 }
 
 .links {
@@ -56,9 +61,14 @@
     cursor: pointer;
 }
 
+.projects {
+    display: flex;
+    justify-content: center;
+    background-color: #F3F6ED;
+}
+
 .projectContent {
     padding: 20px;
-    background-color: #F3F6ED;
 }
 
 .project {
@@ -82,11 +92,19 @@
     width: 600px;
 }
 
-.projectDec {
+.projectTitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.projectInfo {
     width: 600px;
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding-left: 10px;
 
 }
