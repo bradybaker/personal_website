@@ -19,7 +19,7 @@ const Home = (props) => {
                         more about myself and the work I have done as a software engineer. In short, I am a full stack software engineer that loves meeting new people and
                         staying active in whatever way calls to me that day. That could be going for a bike ride, heading to the gym, or just a walk
                         around the lake with my dog. Feel free to connect with me on Linkedin, which is linked below, or reaching out to me at my email above.
-                        You can also check out my work through my linked GitHub page. I have also highlighted some of my projects below. This sight is still
+                        You can also check out my work through my linked GitHub page. I have also highlighted some of my projects below. This site is still
                         a work in progress!
                     </div>
                     <div className="links">
