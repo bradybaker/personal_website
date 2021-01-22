@@ -36,7 +36,15 @@ module.exports = {
                 options: {
                     limit: 10000
                 }
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
+            },
         ]
     },
     // add a custom index.html as the template

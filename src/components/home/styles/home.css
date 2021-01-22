@@ -23,7 +23,7 @@
 
 .topProfile {
     background-color: #74B2BC;
-    height: 75vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +38,12 @@
     font-weight: bold;
 }
 
-.aboutMe {
-    width: 80%;
-    padding: 10px
+.name {
+    padding-top: 10px;
+}
+
+.email {
+    padding-top: 10px;
 }
 
 .bradyPic {
@@ -48,12 +51,12 @@
     -webkit-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
 .links {
     width: 500px;
-    margin-top: 25px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -62,14 +65,14 @@
     cursor: pointer;
 }
 
-.projects {
+.projectContainer {
     display: flex;
-    justify-content: center;
-    background-color: #F3F6ED;
+    justify-content: space-evenly;
 }
 
 .projectContent {
     padding: 20px;
+    background-color: #F3F6ED;
 }
 
 .project {
@@ -87,6 +90,13 @@
 
 .project:hover {
     cursor: pointer;
+}
+
+.projectHeader {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .projectImg {
