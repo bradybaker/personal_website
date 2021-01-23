@@ -1,5 +1,9 @@
 import React from 'react';
-import '../styles/home.css'
+import '../styles/home.css';
+import mySize from '../../../assets/images/soloProject.png'
+import movie from '../../../assets/images/movieSaga.png'
+import feedback from '../../../assets/images/feedback.png'
+import todo from '../../../assets/images/to_do_list.png'
 
 
 
@@ -7,25 +11,25 @@ const Project = (props) => {
 
     const projectsArray = [
         {
-            img: '../../assets/images/soloProject.png',
+            img: mySize,
             title: 'MYSIZE',
             tech: 'React - React-Redux - Redux-Saga - PostgresSQL - Material-UI',
             link: 'https://github.com/bradybaker/solo-project'
         },
         {
-            img: '../../assets/images/movieSaga.png',
+            img: movie,
             title: 'Movie Gallery with Redux-Sagas',
             tech: 'React - React-Redux - Redux-Saga - PostgresSQL - Material-UI',
             link: 'https://github.com/bradybaker/movie-sagas'
         },
         {
-            img: '../../assets/images/feedback.png',
+            img: feedback,
             title: 'React Feedback Collector',
             tech: 'React - React-Redux - PostgresSQL - Material-UI',
             link: 'https://github.com/bradybaker/redux-feedback-loop'
         },
         {
-            img: '../../assets/images/to_do_list.png',
+            img: todo,
             title: 'The SQL To Do List',
             tech: 'JavaScript - jQuery - PostgesSQL',
             link: 'https://github.com/bradybaker/weekend-sql-to-do-list'
@@ -38,6 +42,7 @@ const Project = (props) => {
             <div className='projectContainer' >
                 {
                     projectsArray.map(project => {
+                        console.log('Project image', project.img)
                         return (
                             <div className="project hvr-float">
                                 <img className='projectImg' src={project.img} />

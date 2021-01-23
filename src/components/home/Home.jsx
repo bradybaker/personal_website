@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/home.css'
 import Project from '../home/components/Project'
+import brady from '../../assets/images/bradypic.jpg'
 
 
 const Home = (props) => {
@@ -12,7 +13,7 @@ const Home = (props) => {
 
             <div className='topProfile'>
                 <div className='topContent'>
-                    <img className='bradyPic' width={400} src='../../assets/images/bradypic.jpg' />
+                    <img className='bradyPic' width={400} src={brady} />
                     <div className='name'>Brady Baker</div>
                     <div className='email'>bradybaker82@gmail.com</div>
                     <div className="links">
