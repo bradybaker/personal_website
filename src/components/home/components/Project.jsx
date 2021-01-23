@@ -34,21 +34,19 @@ const Project = (props) => {
 
     return (
         <div className='projectContent'>
-            <h1 className='projectHeader'>Portfolio</h1>
+            <div className='projectHeader'>Portfolio</div>
             <div className='projectContainer' >
                 {
                     projectsArray.map(project => {
                         return (
-                            <>
-                                <div className="project hvr-float">
-                                    <img className='projectImg' src={project.img} />
-                                    <div className='projectInfo'>
-                                        <p className='projectTitle'>{project.title}</p>
-                                        <p style={{ textAlign: 'center' }}>Tech Used: {project.tech}</p>
-                                        <a style={{ textAlign: 'center' }} href={project.link}>GO TO REPO</a>
-                                    </div>
+                            <div className="project hvr-float">
+                                <img className='projectImg' src={project.img} />
+                                <div className='projectInfo'>
+                                    <p className='projectTitle'>{project.title}</p>
+                                    <p style={{ textAlign: 'center' }}>Tech Used: {project.tech}</p>
+                                    <a style={{ textAlign: 'center' }} href={project.link}>GO TO REPO</a>
                                 </div>
-                            </>
+                            </div>
                         )
                     })
                 }

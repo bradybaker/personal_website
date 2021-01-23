@@ -1,5 +1,5 @@
 .appContentContainer {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 /* Float */
@@ -15,10 +15,12 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    
   }
   .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
+
   }
 
 .topProfile {
@@ -39,11 +41,12 @@
 }
 
 .name {
-    padding-top: 10px;
+    font-size: 65px;
 }
 
 .email {
     padding-top: 10px;
+    font-size: 40px;
 }
 
 .bradyPic {
@@ -69,12 +72,17 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 60%;
 
 }
 
 .projectContent {
     padding: 20px;
     background-color: #F3F6ED;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project {
@@ -83,40 +91,39 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 50px;
     align-items: center;
     -webkit-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
 }
 
-.project:hover {
-    cursor: pointer;
-}
-
 .projectHeader {
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-bottom: 40px;
     margin-top: 10px;
+    font-size: 40px;
 }
 
 .projectImg {
     width: 600px;
+    height: 300px;
 }
 
 .projectTitle {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .projectInfo {
-    width: 600px;
+    width: 590px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-size: 20px;
     background-color: white;
-    padding-left: 10px;
-
+    padding: 5px;
 }
