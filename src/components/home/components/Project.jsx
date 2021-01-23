@@ -42,8 +42,8 @@ const Project = (props) => {
                             <div className="project hvr-float">
                                 <img className='projectImg' src={project.img} />
                                 <div className='projectInfo'>
-                                    <p className='projectTitle'>{project.title}</p>
-                                    <p style={{ textAlign: 'center' }}>Tech Used: {project.tech}</p>
+                                    <div className='projectTitle'>{project.title}</div>
+                                    <div style={{ textAlign: 'center' }}>Tech Used: {project.tech}</div>
                                     <a style={{ textAlign: 'center' }} href={project.link}>GO TO REPO</a>
                                 </div>
                             </div>
