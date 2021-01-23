@@ -68,6 +68,8 @@
 .projectContainer {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 .projectContent {
@@ -82,7 +84,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
     -webkit-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 85px -19px rgba(0,0,0,0.75);
